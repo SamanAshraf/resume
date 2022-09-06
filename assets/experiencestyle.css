@@ -17,6 +17,10 @@
     background: black;  
     
 }
+.main-light {
+  color: black;
+
+}
 .body-light .ex-text h4 {
     color: black;
 }
@@ -30,7 +34,7 @@
   font-size: 20px;
 }
 .light-mode{
-    /* background-color: #FFFDF2; */
+    background-color: #FFFDF2;
    } 
   li {
       float: right;
@@ -81,11 +85,7 @@
     border: 0.25rem solid #202020;
     background: linear-gradient(to right, #484848 0%,#202020 100%);
     transition: all 0.3s;
-  }
-  
-  /* .switch input:checked ~ .fill {
-    /* background: #E9F8FD; */
-  
+  }  
   .stars1,
   .stars2 {
     position: absolute;
@@ -279,7 +279,6 @@
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
     display: inline-block;
-        /* font-size: 1px; */
   }
   @keyframes textclip {
     to {
@@ -287,27 +286,16 @@
     }
   }
   .mid-container,.bottom-container,.last-container {
-    /* background-color: black; */
-    /* height: 600px; */
     text-align: center;
   }
   .box{
     width: 600px;
     height: 300px;
-    /* color: black; */
     display:flex;
     align-items: center;
     justify-content: center;
     padding-left: 450px;
-    /* background-color: black; */
-    /* transition: .5s ease; */
   }
-  /* .box :hover {
-    /* box-shadow: 0 0 0 10px white; */
-    /* transition: .5s ease;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-
-  }  */
   body {
 background-color: black;
 color: white;
@@ -324,8 +312,6 @@ color: white;
 }
 .container-card {
     position: relative;
-    /* width: 100%; */
-    /* margin-left: 10px; */
   }
   
   .image {
@@ -363,8 +349,6 @@ color: white;
   }
   .container-card {
     float: left;
-    /* width: 23%;
-    margin: 10px; */
     width: 20%;
     margin: 100px;
   }
@@ -398,8 +382,7 @@ color: white;
     opacity: 0.7;
   }
   .lastcontainer {
-    width: 100%;
-    /* display: flex; */
+    width: 100;
   }
   .col-6-card {
     float: left;
@@ -448,11 +431,8 @@ color: white;
     background-color:purple;
     color: white;
     padding: 14px 20px;
-    /* margin: 100px; */
     border: none;
     cursor: pointer;
-    /* width: 100px; */
-    /* width: 100%; */
     opacity: 0.9;
   }
   
@@ -470,12 +450,10 @@ color: white;
   .cancelbtn, .signupbtn {
     float: right;
 
-    /* width: 50%; */
   }
   
   /* Add padding to container elements */
   .container-formm {
-    /* padding: 16px; */
   }
   
   /* Style the horizontal ruler */

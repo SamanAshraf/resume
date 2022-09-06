@@ -17,9 +17,6 @@
         background-color: black;
         color: white;
     }
-    /* .container {
-        background-color: black;
-    } */
 </style>
 <body>
     <!-- <nav> -->
@@ -48,8 +45,6 @@
             </div>
             
           </ul>  
-    <!-- </nav> -->
-    <!-- <div class="container"> -->
         <div class="topcontainer">
             <div class="ed-pic">
                 <img src="./../assets/work-at-home-freelance-girl-works-on-a-laptop-vector-30407394-removebg-preview.png" alt="">
@@ -284,20 +279,14 @@
             var element = document.body;
            element.classList.toggle("light-mode");
          
-         // changing background of container
-         
-           // changing nav
            const nav = document.querySelector('.nav');
            nav.classList.toggle('nav-light');
            
-           //changing h2 
-           const collection = document.querySelectorAll(".main");
-           for(var i=0; i< collection.length; i++){
-            collection[i].style.color = "black";
+          const main = document.querySelectorAll('.main');
+          for(var i=0; i< main.length; i++){
+            main[i].classList.toggle('main-light');
+          }
         }
-           // collection[0].style.color = "black";
-           // collection[1].style.color="black";
-         }
          </script> 
 </body>
 </html>
