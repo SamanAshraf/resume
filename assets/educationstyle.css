@@ -8,6 +8,9 @@
     background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  
     background: linear-gradient(to right, #00dbde, #fc00ff); 
   }
+  .nav-right {
+    /* margin-left: 477px; */
+  }
   /* Light mode classes*/
 .nav-light {
     list-style-type: none;
